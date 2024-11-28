@@ -1,0 +1,50 @@
+串口模块改名
+串口模块修改噪声检测为脉宽一半即为噪声
+去掉采样倍率
+代码结构
+更新修改后的采样点
+
+UVM复位的实现
+1、复位需要考虑什么东西
+	sequence正在发送的序列
+	scoreboard正在统计的数据
+
+scoreboard的实现
+	1 如何获取monitor的信息
+	通过TLM获取
+	2 scoreboard放在什么位置
+	放在env内
+	3 scoreboard都有什么形态各有什么优点
+
+我的socreboard需要有什么
+	1 控制寄存器不需要scoreboard 
+	2 状态寄存器和错误寄存器需要scoreboard
+	3 这两个寄存器都需要受复位的控制，复位来了要清零
+	4 根据slave的monitor送来的脉冲信号进行统计
+	5 根据寄存器进来的addr进行判断那个寄存器，然后与对应的值进行比较
+
+	6 所以我首先需要一个地方对这些数进行存储
+	7 然后我需要两个TLM从两个monitor处获得操作，我需要知道uvm_scoreboard有没有analysis_export
+	上述4和5已经实现
+
+	8 3在scoreborad中实现的难点在4的统计是在广播端口的write函数中，所以在复位来临的时候不能修改该函数中的数值
+	9 可以在write函数中将操作存入mailbox中，在mailbox的另一端去进行统计，（注意）mailbox的存取方法都是task，可以使用队列
+
+    uvm_blocking_put_imp_chnl1 #(mon_data_t, mcdf_checker)   chnl1_bp_imp;
+    这里的TLM通信是什么情况
+    5 第二个参数是什么意思
+    第二个参数是端口所在COMPONENT类型
+    4 要完整实现TLM通信需要注意什么
+    多向通信时
+       	1 宏定义带_decl(SFX)的端口
+       	2 声明带用SFX代替_decl后缀的端口
+       	3 再类的new函数中对端口进行new
+       	4 实现带SFX的任务
+    用到的是多向通信
+    3 什么时候用mailbox
+    2 实例化同名数组新的TLM端口需要注意什么
+    1 这几个TLM接口都有什么用
+
+
+
+    mailbox在build_phase中例化,TLM在new中例化

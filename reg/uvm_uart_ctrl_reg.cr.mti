@@ -1,0 +1,73 @@
+E:/uart_uvm/reg/uart_reg_test.sv {1 {vlog -work work -vopt -sv -covercells -cover sbceft1 -stats=none E:/uart_uvm/reg/uart_reg_test.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package uart_reg_test
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) E:/uart_uvm/reg/uart_reg_test.sv(5): Using implicit +incdir+E:/questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package uart_reg_pkg
+-- Importing package uart_rgm_pkg
+-- Importing package reg_coverage_pkg
+-- Importing package reg_slave_pkg
+-- Importing package rst_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} E:/uart_uvm/reg/reg_slave_pkg.sv {1 {vlog -work work -vopt -sv -covercells -cover sbceft1 -stats=none E:/uart_uvm/reg/reg_slave_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package reg_slave_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) E:/uart_uvm/reg/reg_slave_pkg.sv(4): Using implicit +incdir+E:/questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} E:/uart_uvm/reg/rst_pkg.sv {1 {vlog -work work -vopt -sv -stats=none E:/uart_uvm/reg/rst_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package rst_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) E:/uart_uvm/reg/rst_pkg.sv(4): Using implicit +incdir+E:/questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} E:/uart_uvm/reg/uart_reg_pkg.sv {1 {vlog -work work -vopt -sv -covercells -cover sbceft1 -stats=none E:/uart_uvm/reg/uart_reg_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package uart_reg_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) E:/uart_uvm/reg/uart_reg_pkg.sv(5): Using implicit +incdir+E:/questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} E:/uart_uvm/reg/reg_coverage_pkg.sv {1 {vlog -work work -vopt -sv -covercells -cover sbceft1 -stats=none E:/uart_uvm/reg/reg_coverage_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package reg_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) E:/uart_uvm/reg/reg_coverage_pkg.sv(4): Using implicit +incdir+E:/questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package uart_reg_pkg
+-- Importing package uart_rgm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} E:/uart_uvm/reg/reg_param.v {1 {vlog -work work -vopt -covercells -cover sbceft1 -stats=none E:/uart_uvm/reg/reg_param.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} E:/uart_uvm/reg/uartctrl_reg.v {1 {vlog -work work -vopt -covercells -cover sbceft1 -stats=none E:/uart_uvm/reg/uartctrl_reg.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module uartctrl_reg
+
+Top level modules:
+	uartctrl_reg
+
+} {} {}} E:/uart_uvm/reg/uart_reg_rgm_pkg.sv {1 {vlog -work work -vopt -sv -covercells -cover sbceft1 -stats=none E:/uart_uvm/reg/uart_reg_rgm_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package uart_rgm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) E:/uart_uvm/reg/uart_reg_rgm_pkg.sv(5): Using implicit +incdir+E:/questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package uart_reg_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

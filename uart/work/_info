@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/uart_uvm/uart
+vuart_reg_hp
+!s110 1724659496
+!i10b 1
+!s100 bo4d^Y3l]<V;>:PM;fh7?3
+IkoJ`<X;bj6@]cCz?320jo2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1724659495
+8c:\users\17867\appdata\local\temp\tmptdkjl1.v
+Fc:\users\17867\appdata\local\temp\tmptdkjl1.v
+Z2 L0 23
+Z3 OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1724659495.000000
+!s107 c:\users\17867\appdata\local\temp\tmptdkjl1.v|
+!s90 c:\users\17867\appdata\local\temp\tmptdkjl1.v|
+!i113 0
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vuart_rx_buffer
+!s110 1724659976
+!i10b 1
+!s100 _GNEfaSMl:Z80:X<]@m6=3
+I48l5W?9STCj49DEH2PUhL0
+R1
+R0
+w1724659976
+8c:\users\17867\appdata\local\temp\tmp9yfq76.v
+Fc:\users\17867\appdata\local\temp\tmp9yfq76.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1724659976.000000
+!s107 c:\users\17867\appdata\local\temp\tmp9yfq76.v|
+!s90 c:\users\17867\appdata\local\temp\tmp9yfq76.v|
+!i113 0
+R4
+R5
+vuart_rx_buffer_read_reg
+!s110 1724659872
+!i10b 1
+!s100 dVeNz>h>8m8[[oUlPeE5G0
+IVz<ol9eG;[oESe9z^f0:30
+R1
+R0
+w1724659872
+8c:\users\17867\appdata\local\temp\tmpy1j99p.v
+Fc:\users\17867\appdata\local\temp\tmpy1j99p.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1724659872.000000
+!s107 c:\users\17867\appdata\local\temp\tmpy1j99p.v|
+!s90 c:\users\17867\appdata\local\temp\tmpy1j99p.v|
+!i113 0
+R4
+R5
+vuart_rx_buffer_write_reg
+!s110 1724659897
+!i10b 1
+!s100 A>m8^l@>AJ>^6T5`e26?M0
+I=l04]=]CgJXA;0f>eRZN=2
+R1
+R0
+w1724659896
+8c:\users\17867\appdata\local\temp\tmp2lkog4.v
+Fc:\users\17867\appdata\local\temp\tmp2lkog4.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1724659896.000000
+!s107 c:\users\17867\appdata\local\temp\tmp2lkog4.v|
+!s90 c:\users\17867\appdata\local\temp\tmp2lkog4.v|
+!i113 0
+R4
+R5
+vuart_tx_buffer
+!s110 1724659964
+!i10b 1
+!s100 jzbS3PgCAV5Z8DiT^VXRT3
+I^S15V`YCoL@n7VA@hO<780
+R1
+R0
+w1724659964
+8c:\users\17867\appdata\local\temp\tmpwt8pu5.v
+Fc:\users\17867\appdata\local\temp\tmpwt8pu5.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1724659964.000000
+!s107 c:\users\17867\appdata\local\temp\tmpwt8pu5.v|
+!s90 c:\users\17867\appdata\local\temp\tmpwt8pu5.v|
+!i113 0
+R4
+R5
+vuart_tx_buffer_reg
+!s110 1724659970
+!i10b 1
+!s100 8[5kgQWmoKU21P`bb62Hm1
+I^AZLF5[k`f8m?j=4_h9<83
+R1
+R0
+w1724659970
+8c:\users\17867\appdata\local\temp\tmpzr60s7.v
+Fc:\users\17867\appdata\local\temp\tmpzr60s7.v
+L0 22
+R3
+r1
+!s85 0
+31
+!s108 1724659970.000000
+!s107 c:\users\17867\appdata\local\temp\tmpzr60s7.v|
+!s90 c:\users\17867\appdata\local\temp\tmpzr60s7.v|
+!i113 0
+R4
+R5
+vuartctrl_reg
+!s110 1724659832
+!i10b 1
+!s100 HcEM3caaBP2WX5nXJ45hG3
+IH7JTS_^@[54CW4ijUZX5z0
+R1
+R0
+w1724659832
+8c:\users\17867\appdata\local\temp\tmp4ifnm6.v
+Fc:\users\17867\appdata\local\temp\tmp4ifnm6.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1724659832.000000
+!s107 c:\users\17867\appdata\local\temp\tmp4ifnm6.v|
+!s90 c:\users\17867\appdata\local\temp\tmp4ifnm6.v|
+!i113 0
+R4
+R5

@@ -1,0 +1,1 @@
+vsim -classdebug work.tb -voptargs=+acc=bcglnprst+ctrl_regs
